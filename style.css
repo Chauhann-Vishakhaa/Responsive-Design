@@ -51,7 +51,8 @@ input {
 
 .cards {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
+    
     gap: 10px;
     border: 1px solid #ccc;
     margin-bottom: 20px;
@@ -60,7 +61,7 @@ input {
 }
 
 .cards img {
-    width: 100%;
+    width: 50%;
     height: 200px;
     object-fit: cover;
 }
